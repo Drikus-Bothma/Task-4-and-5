@@ -1,0 +1,354 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #2b2b2b;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+}
+
+.logo{
+    float: left;
+    color: white;
+}
+
+.btns{
+    float: right;
+    width: 520px;
+    height: 60px;
+}
+
+.btns ul{ 
+    list-style: none;
+}
+
+.btns li{
+    float: left;
+    height: 35px;
+    padding-top: 5px;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 5px;
+    color: #2b2b2b;
+}
+
+.btns li:hover{
+    background-color: rgb(190, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.active{
+    background-color: rgb(190, 0, 0) !important;
+    color: white !important;
+}
+
+header{
+    width: 100%;
+    height: 625px;
+    padding-right: 10%;
+    color: white;
+    background-image: url(../assets/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    width: 1512px;
+    height: 625px;
+    background-color: rgba(0,0,0,0.4);
+    padding-left: 12%;
+    padding-top: 150px;
+}
+
+
+.col-12{
+    width: 100%;
+    height: 100px;
+    background-color: #2b2b2b;
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+}
+
+.square{
+   width: 450px;
+   height: 450px;
+   background-image: url(../assets/hands.jpg);
+   background-position: center;
+   background-size: cover;
+   margin: 0 auto;
+   margin-top: 50px;
+   border-radius: 50%;
+}
+
+.text{
+    padding-top: 100px;
+    padding-right: 10%;
+}
+
+.button{
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    border: 2px solid #2b2b2b;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 8px;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+.buttonT{
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 8px;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+.button:hover{
+    background-color: #2b2b2b;
+    color: white;
+}
+
+.buttonT:hover{
+    background-color: rgb(190, 0, 0);
+    color: white;
+    border-color: rgb(190, 0, 0);
+}
+
+.Oheading{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.circle1{
+    width: 150px;
+    height: 150px;
+    background-color: lightgray;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 27px;
+    margin-bottom: 10px;
+    background-image: url(../assets/old_eleven.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.circle2{
+    width: 150px;
+    height: 150px;
+    background-color: lightgray;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 27px;
+    margin-bottom: 10px;
+    background-image: url(../assets/old_mike.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.circle3{
+    width: 150px;
+    height: 150px;
+    background-color: lightgray;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 27px;
+    margin-bottom: 10px;
+    background-image: url(../assets/old_dustin.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.circle4{
+    width: 150px;
+    height: 150px;
+    background-color: lightgray;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 27px;
+    margin-bottom: 10px;
+    background-image: url(../assets/zombie.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.subT{
+    text-align: center;
+    font-weight: bold;
+}
+
+.subText{
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.Cbtn{
+    padding-left: 25%;
+}
+
+.Cbutton{
+    cursor: pointer;
+    width: 150px;
+    height: 35px;
+    border: 2px solid #2b2b2b;
+    background-color: #2b2b2b;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.Cbutton:hover{
+    background-color: white;
+    color: #2b2b2b;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #2b2b2b;
+    color: white;
+    float: left;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.col-4{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.p2-block{
+    width: 100%;
+    height: 250px;
+    background-color: lightgray;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.p2T{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.p2-subH{
+    margin-top: 20px;
+}
+
+.p2-Btn1{
+    padding-bottom: 60px;
+}
+
+.p2-btn1{
+    cursor: pointer;
+    width: 150px;
+    height: 35px;
+    border: 2px solid #2b2b2b;
+    background-color: #2b2b2b;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.p2-btn1:hover{
+    background-color: white;
+    color: #2b2b2b;
+}
+
+.p2-FH{
+    text-align: center;
+}
+
+.p2-Fblock{
+    width: 80%;
+    height: 300px;
+    background-color: lightgray;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.mgn{
+    padding-left: 10%;
+    padding-right: 25%;
+}
+
+.mgn2{
+    padding-left: 10%;
+    padding-right: 25%;
+}
+
+.p2-btn2{
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    border: 2px solid #2b2b2b;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 6px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.p2-btn2:hover{
+    background-color: #2b2b2b;
+    color: white;
+}
+
+.FS{
+    margin-top: 100px;
+}
+
+.QW{
+    text-align: center;
+    font-style: italic;
+}
+
+.NE{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.col-box1{
+    background-color: white;
+}
+
+.col-box2{
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 125px;
+}
+
+.col-6s{
+    float: left;
+    width: 50%;
+    
+}
+
+.social{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
